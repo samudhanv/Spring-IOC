@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"	 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd" >
+     	
+	<bean id="eb" class="in.kittu.core.model.Employee">
+		<!-- <property name="empid" value="10890244" /> -->
+		<property name="ename" value="Srujan" />
+		<property name="salary" value="25000.65"/>
+	</bean>
+	
+</beans>
