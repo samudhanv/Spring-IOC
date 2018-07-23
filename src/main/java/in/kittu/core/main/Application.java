@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import in.kittu.core.model.Employee;
 
-public class Application {
+public class Application { 
 
 	public static void main(String[] args) {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("ConfigBeans.xml");
