@@ -11,7 +11,7 @@ public class TestApp {
 	public static void main(String[] args) {
 		ApplicationContext container = new ClassPathXmlApplicationContext("springbean.xml");
 		Person p1 = (Person) container.getBean("person");
-		Person p2 = (Person) container.getBean("person");
+		Person p2 = (Person) container.getBean("person"); 
 		Person p3 = (Person) container.getBean("person");
 		Person p4 = (Person) container.getBean("person");
 	
